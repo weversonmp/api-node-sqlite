@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "app": "nodemon src/*",
+    "app": "nodemon --ext js,html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/weversonmp/api-node-sqlite#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
-  }
+    "nodemon": "^3.0.1",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6"
+  },
+  "type": "module"
 }
